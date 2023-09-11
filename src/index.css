@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+/*---RESET ---*/
+* {
+    box-sizing: border-box;
+    
+}
+.titulo {
+    margin: 0%;
+    font-family: 'Creepster', sans-serif;
+    font-size: 10vh; 
+    text-align: center;
+    white-space: normal;
+    color: #0FC4BF;
+    background-image: linear-gradient(to right, #DFF72B, #03D724); 
+    text-shadow: 2px 2px 4px rgba(235, 243, 23, 0.5);
+      
+}
+html {
+    font-family: 'josefin', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #839BB5;
+    text-align: center;
+}
+
+h1, h2, h3, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input {
+    outline: none;
+    font-family: inherit;
+    text-align: center;
+    border-color: #9aecc5;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    margin-top: auto;
+}
+button {
+    background-color: rgba(124, 214, 244, 0.853);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-family: inherit;   
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+    transition: .3s;
+    font-size: 12px;
+    
+}
+button:hover {
+    
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px rgb(89, 255, 0), 0 0 90px rgb(0, 255, 60);
+    
+}
+img {
+    width: 100%;
+    display: block;
+}
+footer {
+    font-size: 12px;
+    margin-top: 10%;
+    text-align: center;
+}
